@@ -9,6 +9,8 @@ Contributors:
   
 (Project : Implementation of linked list using c++)
 
+Note : The default branch is changed to "checking" for security purposes, so all will be branching out from the same and finall will create a pull request fore merging.
+
 WORK ASSIGNED
 {
 Piyush you are requested to make a branch named "Piyush_1" and you have to work on the same.
