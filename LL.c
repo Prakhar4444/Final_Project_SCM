@@ -136,4 +136,15 @@ node *single_llist::create_node(int value)
     }
 }
 	    
-
+/*
+ * Searching an element
+ */
+void single_llist::search()
+{
+    int value, pos = 0;
+    bool flag = false;
+    if (start == NULL)
+    {
+        cout<<"List is empty"<<endl;
+        return;
+    }
