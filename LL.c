@@ -35,3 +35,13 @@ class single_llist
             start = NULL;
         }
 };
+
+/*
+ * Main :contains menu
+ */
+main()
+{
+    int choice, nodes, element, position, i;
+    single_llist sl;
+    start = NULL;
+    while (1)
