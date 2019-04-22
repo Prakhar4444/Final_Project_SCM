@@ -322,3 +322,26 @@ void single_llist::display()
     }
     cout<<"NULL"<<endl;
 }
+/*
+ * Inserting element in beginning
+ */
+void single_llist::insert_begin()
+{
+    int value;
+    cout<<"Enter the value to be inserted: ";
+    cin>>value;
+    struct node *temp, *p;
+    temp = create_node(value);
+    if (start == NULL)
+    {
+        start = temp;
+        start->next = NULL;          
+    } 
+    else
+    {
+        p = start;
+        start = temp;
+        start->next = p;
+    }
+    cout<<"Element Inserted at beginning"<<endl;
+}
