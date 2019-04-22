@@ -147,4 +147,17 @@ void single_llist::search()
     {
         cout<<"List is empty"<<endl;
         return;
-    }
+    cout<<"Enter the value to be searched: ";
+    cin>>value;
+    struct node *s;
+    s = start;
+    while (s != NULL)
+    {
+        pos++;
+        if (s->info == value)
+        {
+            flag = true;
+            cout<<"Element "<<value<<" is found at position "<<pos<<endl;
+        }
+        s = s->next;
+    }}
