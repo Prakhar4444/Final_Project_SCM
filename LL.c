@@ -161,3 +161,10 @@ void single_llist::search()
         }
         s = s->next;
     }}
+     if (!flag)
+        cout<<"Element "<<value<<" not found in the list"<<endl;
+}
+
+/*
+ * Reverse Link List
+ */
